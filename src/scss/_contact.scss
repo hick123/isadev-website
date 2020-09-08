@@ -1,0 +1,66 @@
+.contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        width: 80%;
+        margin: 30px auto;
+
+        .form-control {
+            background: transparent;
+            border-radius: 0;
+            box-shadow: none;
+            height: 44px;
+            font-size: 14px;
+            position: relative;
+            /* transition: border .9s ease; */
+            padding: 1rem;
+            border: none;
+
+            background-color: #2c2d30;
+            box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e;
+            -webkit-box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e;
+            -moz-box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e;
+            -o-box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e;
+            -ms-box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e;
+            border-radius: 1rem;
+            margin-bottom: 1.5rem;
+
+            textarea {
+                min-height: 175px;
+                resize: none;
+            }
+        }
+
+
+        .btn {
+            border-radius: 1rem;
+            border: none;
+            padding: 10px 30px;
+            // transition: all 0.3s ease;
+            font-size: 16px;
+            display: inline-block;
+            transition: all 1.8s ease;
+
+            margin-top: 1.2rem;
+            width: fit-content;
+            // border-radius: $border-radius-defualt;
+            // border: none;
+            // padding: 0.5rem 2rem;
+
+            background: #2c2d30;
+            box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+            color: #d31d4d;
+
+            cursor: pointer;
+
+            &:hover {
+                box-shadow:
+                    inset 3px 3px 3px #252528, inset -3px -3px 3px #333538;
+            }
+        }
+    }
+}

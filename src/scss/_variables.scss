@@ -1,0 +1,58 @@
+// Font Family
+$poppins: 'Poppins',
+sans-serif;
+$muli: 'Muli',
+sans-serif;
+$FontAwesome: 'FontAwesome',
+'sans-serif';
+$lineIcon: LineIcons,
+sans-serif;
+
+// Font weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 700;
+
+$color-full: (reds:#d31d4d,
+
+);
+
+$rgb: (light: rgba(240, 240, 240, 0.7),
+    dark:rgba(52, 53, 57, 0.9),
+    secondary-dark:rgba(42, 42, 43, .9),
+);
+
+// Box-shadow
+$box-shadow: 3px 3px 3px #dadada,
+-3px -3px 3px #fafafa;
+$box-shadow-second: 3px 3px 8px rgba(55, 84, 170, 0.1),
+-3px -3px 8px rgb(255, 255, 255);
+$box-shadow-inset: inset 3px 3px 3px #dadada,
+inset -3px -3px 3px #fafafa;
+$second-box-shadow-inset: inset 3px 3px 8px rgba(55, 84, 170, 0.3),
+inset -3px -3px 8px rgb(255, 255, 255);
+$dark-box-shadow: 3px 3px 3px #202125,
+-3px -3px 3px #3e3e3e;
+$dark-box-shadow-inset: inset 3px 3px 3px #202125,
+inset -3px -3px 3px #3e3e3e;
+$second-dark-box-shadow-inset: -1px -1px 4px rgba(83, 83, 83, 0.4),
+1px 1px 4px rgba(0, 0, 0, 0.35);
+$third-dark-box-shadow-inset: -2px -2px 7px rgba(83, 83, 83, 0.4),
+2px 2px 7px rgba(0, 0, 0, 0.35);
+$menu-box-shadow: 3px 3px 3px #cdcdcd,
+-3px -3px 3px #fafafa;
+$menu-box-shadow-inset:inset 3px 3px 3px #cdcdcd,
+inset -3px -3px 3px #fafafa;
+$rtl-box-shadow: 3px 3px 8px rgba(77, 81, 92, 0.1),
+-3px -3px 8px rgba(255, 255, 255, 0.6);
+
+// Others
+$golden-line-height: 1.618;
+
+$w-100: 100%;
+$h-100: 100%;
+
+
+$border-radius-defualt: 1rem;
+$second-border-radius: 1.25rem;

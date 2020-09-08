@@ -1,0 +1,27 @@
+.button {
+    border-radius: 1rem;
+    border: none;
+    padding: 10px 30px;
+    // transition: all 0.3s ease;
+    font-size: 16px;
+    display: inline-block;
+    transition: all 1.8s ease;
+
+    margin-top: 1.2rem;
+    width: fit-content;
+    // border-radius: $border-radius-defualt;
+    // border: none;
+    // padding: 0.5rem 2rem;
+
+    background: #2c2d30;
+    box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+    color: #d31d4d;
+    margin: 1rem 1rem 1rem 0;
+
+    cursor: pointer;
+
+    &:hover {
+        box-shadow:
+            inset 3px 3px 3px #252528, inset -3px -3px 3px #333538;
+    }
+}
