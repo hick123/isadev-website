@@ -1,0 +1,10 @@
+.menu {
+    &-open {
+        transform: translateX(60px);
+    }
+
+    img {
+        height: 40px;
+        transition: all .6s ease;
+    }
+}

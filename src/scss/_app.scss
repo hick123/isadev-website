@@ -8,6 +8,22 @@
     // display: block;
     display: flex;
 
+    &-menu {
+        position: absolute;
+        z-index: 1039;
+        color: white;
+
+        top: 20px;
+        left: 20px;
+        visibility: hidden;
+        opacity: 0;
+
+        @media screen and (max-width : 639px) {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
     &-sidebar {
         height: 100%;
 
@@ -20,13 +36,7 @@
         @media screen and (min-width : 639px) {
             padding-left: 80px;
         }
-
-
-
-
     }
-
-
 
 
 }
