@@ -1,7 +1,8 @@
 .about {
     height: 100%;
-    width: 100%;
+    width: 80%;
 
+    margin: 0 auto;
     display: flex;
     // justify-content: center;
     flex-direction: column;
@@ -43,6 +44,7 @@
 
             border-radius: 1rem;
             border: none;
+            margin-bottom: 10px;
 
 
             &:hover {

@@ -1,0 +1,45 @@
+ .work {
+     &-list {
+         display: flex;
+         flex-wrap: wrap;
+         padding: 1rem 2rem;
+     }
+
+     &-content {
+         flex: 0 1 250px;
+         background: #2c2d30;
+         height: 250px;
+         box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+         margin: 5px;
+         padding: 5px;
+
+         &-img {
+             height: 80%;
+
+             img {
+                 height: 100%;
+                 width: 100%;
+                 object-fit: contain;
+             }
+
+         }
+
+         &-text {
+             height: 20%;
+
+             h5 {
+                 color: white;
+                 padding: auto;
+             }
+         }
+
+         &-placeholder {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: white;
+             height: 100%;
+         }
+
+     }
+ }

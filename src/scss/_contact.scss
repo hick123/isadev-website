@@ -5,6 +5,52 @@
     justify-content: center;
     align-items: center;
 
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    &-details {
+        width: 80%;
+
+        color: white;
+
+        img {
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+
+        &-content {
+            background: #2c2d30;
+            box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
+            border-radius: 10px;
+            padding: 10px;
+
+            margin-bottom: 10px;
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            &:hover {
+                box-shadow:
+                    inset 3px 3px 3px #252528, inset -3px -3px 3px #333538;
+            }
+
+        }
+
+    }
+
+    &-text {
+        margin-top: 1rem;
+        color: white;
+
+        text-align: center;
+
+        p {
+            margin: 0
+        }
+    }
+
     form {
         width: 80%;
         margin: 30px auto;
@@ -19,6 +65,8 @@
             /* transition: border .9s ease; */
             padding: 1rem;
             border: none;
+
+            color: #d31d4d;
 
             background-color: #2c2d30;
             box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e;
