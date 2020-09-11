@@ -35,7 +35,7 @@ function About() {
 
         <div className="about-services">
           <div className="row">
-            <div className="about-services-header col-12 ">
+            <div className="about-services-header col-12">
               <h3>
                 What <span>I Do</span>
               </h3>
