@@ -46,8 +46,13 @@ function About() {
               <div className="about-services-container">
                 <img src={adobeIcon} alt="" />
                 <div className="about-services-container-content">
-                  <h5>UX / UI Design</h5>
-                  <p> Design</p>
+                  <h5>Mobile</h5>
+                  <p>
+                    <small>
+                      I design and develop mobile applications using React
+                      Native and Flutter.
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>
@@ -56,7 +61,13 @@ function About() {
                 <img src={webIcon} alt="" />
                 <div className="about-services-container-content">
                   <h5>Frontend</h5>
-                  <p>Build websites/ web applications</p>
+                  <p>
+                    {" "}
+                    <small>
+                      Build websites/ web applications using React, React
+                      Native, Angular and Bootstrap
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>
@@ -64,8 +75,14 @@ function About() {
               <div className="about-services-container">
                 <img src={serverIcon} alt="" />
                 <div className="about-services-container-content">
-                  <h5>Back-end Development</h5>
-                  <p> Design and building api services</p>
+                  <h5>Back-end </h5>
+                  <p>
+                    {" "}
+                    <small>
+                      Design and building api services using Node js and Django
+                      Frameworks
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>

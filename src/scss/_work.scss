@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1rem 2rem;
+
   }
 
   &-content {
@@ -11,6 +12,8 @@
     height: 250px;
     box-shadow: 3px 3px 3px #202125, -3px -3px 3px #3e3e3e;
     margin: 60px 0 30px;
+    margin-right: 10px;
+
     // padding: 30px;
 
     // &::before {

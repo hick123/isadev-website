@@ -63,7 +63,13 @@
                 &:hover {
 
                     box-shadow:
-                        inset 3px 3px 3px #252528, inset -3px -3px 3px #333538
+                        inset 3px 3px 3px #252528, inset -3px -3px 3px #333538;
+
+                    span {
+                        opacity: 1;
+                        visibility: visible;
+                        transform: translateY(50%);
+                    }
                 }
 
                 &:active {
@@ -83,19 +89,8 @@
                     color: #d31d4d;
                     text-transform: capitalize;
 
-                    &:hover {
-                        opacity: 1;
-                        visibility: visible;
-                        // color: white;
-                        // transform: translateY(50%);
-                    }
 
-                    &:active {
-                        opacity: 1;
-                        visibility: visible;
-                        color: white !important;
-                        transform: translateY(50%);
-                    }
+
                 }
             }
         }

@@ -18,7 +18,7 @@ function Work() {
         </div>
 
         <div className="work-content">
-          <div className="work-content-placeholder">Others comming soon</div>
+          <div className="work-content-placeholder">Others coming soon</div>
         </div>
       </div>
     </div>

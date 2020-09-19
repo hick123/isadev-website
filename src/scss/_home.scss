@@ -40,8 +40,27 @@
   }
 }
 
-#tsparticles {
-  height: 1px;
-  width: 1px;
 
+canvas {
+  // display: block;
+  position: absolute;
+
+  // vertical-align: bottom;
 }
+
+#particles-js {
+  // position: absolute;
+
+  height: 90vh;
+  width: 90vw;
+
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// #tsparticles {
+//   height: 1px;
+//   width: 1px;
+
+// }

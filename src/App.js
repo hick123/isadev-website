@@ -8,7 +8,6 @@ const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Work = lazy(() => import("./pages/Work"));
 const Contact = lazy(() => import("./pages/Contact"));
-const Resume = lazy(() => import("./pages/Resume"));
 const MobileMenu = lazy(() => import("./components/MobileMenu"));
 
 const App = () => {
@@ -39,15 +38,6 @@ const App = () => {
                 <Route path="/work">
                   <Work />
                 </Route>
-                <Route path="/resume">
-                  <Resume />
-                </Route>
-                {/* <Route exact path="/services">
-              <Services />
-            </Route> */}
-                {/* <Route exact path="/">
-              <Home />
-            </Route> */}
               </Switch>
             </div>
           </div>
