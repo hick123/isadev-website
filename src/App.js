@@ -3,6 +3,8 @@ import Sidebar from "./components/Sidebar";
 import "./scss/style.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import DonutSpinner from "./components/DonutSpinner";
+import SimpleReactLightbox from "simple-react-lightbox";
+
 import { ContextProvider } from "./ContextApi";
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -34,9 +36,11 @@ const App = () => {
                 </Route>
                 <Route path="/contact">
                   <Contact />
-                </Route>{" "}
+                </Route>
                 <Route path="/work">
-                  <Work />
+                  <SimpleReactLightbox>
+                    <Work />
+                  </SimpleReactLightbox>
                 </Route>
               </Switch>
             </div>

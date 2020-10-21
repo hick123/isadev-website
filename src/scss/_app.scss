@@ -3,6 +3,8 @@
     height: 100vh;
     display: flex;
 
+    overflow: hidden;
+
     &-menu {
         position: absolute;
         z-index: 1039;

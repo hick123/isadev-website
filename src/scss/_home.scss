@@ -1,6 +1,6 @@
 .home {
   height: 100%;
-  width: 100%;
+  width: 80%;
 
   z-index: 1003 !important;
   color: white;
@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 
   padding: 1rem;
 

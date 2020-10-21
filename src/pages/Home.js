@@ -4,6 +4,7 @@ import github from "../assets/img/github-filled.svg";
 import linkedin from "../assets/img/linkedin-in.svg";
 import Button from "../components/Button";
 import Particle from "../components/Particle";
+import { Link } from "react-router-dom";
 
 function Home() {
   const twitterUrl = "https://twitter.com/ikorir";
@@ -18,7 +19,9 @@ function Home() {
           <div className="home-intro">
             <h2>I'M Isaiah Korir</h2>
             <h3>Full stack developer</h3>
-            <Button name="Works" />
+            <Link to="/work">
+              <Button name="Works" />
+            </Link>
           </div>
           <div className="home-social">
             <img

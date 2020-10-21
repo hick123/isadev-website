@@ -2,9 +2,29 @@
   &-list {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem 2rem;
+    // padding: 1rem 2rem;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
 
   }
+
+  &-item{
+    // background: #b2b7c7;
+    // color: #fff;
+    flex: 0 1 250px;
+    &__img{
+      height: 100%;
+      width: 100%;
+
+      img{
+     
+        width: 100%;
+  
+      }
+    }
+  }
+
 
   &-content {
     flex: 0 1 250px;
@@ -36,7 +56,7 @@
       img {
         height: 100%;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
       }
 
       //   &::after {
